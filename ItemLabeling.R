@@ -4,7 +4,6 @@ library(stringr)
 library(dplyr)
 library(tidytext)
 library(readr)
-#Run query https://glovoapp.eu.looker.com/sql/tzdd5cx4235vhh in SQL Runner and save file as "productsdata.csv"
 #---------------------------------------------------------------------------------------------------
 #Read data
 products <- read.table('C:/Users/Gerardo Flores/Documents/RGroceries/RProductsClassification/productsdata.csv', header = TRUE, sep = ',', stringsAsFactors = FALSE, allowEscapes = TRUE, quote = "\"", fill = TRUE)
